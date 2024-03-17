@@ -1,5 +1,5 @@
-from pydantic import BaseModel, EmailStr, Field
-from annotated_types import MinLen, MaxLen, Optional
+from pydantic import BaseModel, EmailStr
+from annotated_types import MinLen, MaxLen
 from typing import Annotated
 
 class CreateUser(BaseModel):
