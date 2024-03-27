@@ -1,8 +1,8 @@
-"""Create profile table
+"""create profile table
 
-Revision ID: 87620ab0ef0c
+Revision ID: 3c487e6cbbc0
 Revises: 087360950e14
-Create Date: 2024-03-25 18:46:07.397658
+Create Date: 2024-03-26 11:25:40.839269
 
 """
 
@@ -13,7 +13,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = "87620ab0ef0c"
+revision: str = "3c487e6cbbc0"
 down_revision: Union[str, None] = "087360950e14"
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
